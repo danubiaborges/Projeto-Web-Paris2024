@@ -1,0 +1,947 @@
+[
+    {
+        "codigo_do_local": "ALX",
+        "nome_do_local": "Pont Alexandre III",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Triathlon (PTRI)",
+        "data_de_início": "2024-09-01",
+        "data_de_término": "2024-09-02",
+        "endereço": "Não disponível",
+        "latitude": "48,8637",
+        "longitude": "2,3134",
+        "ponto_geográfico": {
+            "lon": 2.3134,
+            "lat": 48.8637
+        }
+    },
+    {
+        "codigo_do_local": "BCY",
+        "nome_do_local": "Arena Bercy",
+        "categoria_id": "local-paralympic",
+        "esportes": "Basketball fauteuil (PWBK)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-08",
+        "endereço": "Não disponível",
+        "latitude": "48,83863",
+        "longitude": "2,378597",
+        "ponto_geográfico": {
+            "lon": 2.378597,
+            "lat": 48.83863
+        }
+    },
+    {
+        "codigo_do_local": "BOR",
+        "nome_do_local": "Stade de Bordeaux",
+        "categoria_id": "local-olympic",
+        "esportes": "Football (FBL)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-08-02",
+        "endereço": "Não disponível",
+        "latitude": "44.8974",
+        "longitude": "-0.5616",
+        "ponto_geográfico": {
+            "lon": -0.5616,
+            "lat": 44.8974
+        }
+    },
+    {
+        "codigo_do_local": "EIF",
+        "nome_do_local": "Stade Tour Eiffel",
+        "categoria_id": "local-olympic",
+        "esportes": "Volley-ball de plage (VBV)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,85613",
+        "longitude": "2,2978",
+        "ponto_geográfico": {
+            "lon": 2.2978,
+            "lat": 48.85613
+        }
+    },
+    {
+        "codigo_do_local": "GRP",
+        "nome_do_local": "Grand Palais",
+        "categoria_id": "local-paralympic",
+        "esportes": "Escrime fauteuil (PWFE), Para Taekwondo (PTKW)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,86616355",
+        "longitude": "2,3125474",
+        "ponto_geográfico": {
+            "lon": 2.3125474,
+            "lat": 48.86616355
+        }
+    },
+    {
+        "codigo_do_local": "INV",
+        "nome_do_local": "Invalides",
+        "categoria_id": "local-olympic",
+        "esportes": "AthlÃ©tisme - arrivÃ©e Marathon (ATM), Cyclisme sur route - dÃ©part Contre-la-montre (CRD), Tir Ã  l'arc (ARC)",
+        "data_de_início": "2024-07-25",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,85704803",
+        "longitude": "2,312835932",
+        "ponto_geográfico": {
+            "lon": 2.312835932,
+            "lat": 48.85704803
+        }
+    },
+    {
+        "codigo_do_local": "LBO",
+        "nome_do_local": "Site dâ€™escalade du Bourget",
+        "categoria_id": "local-olympic",
+        "esportes": "Escalade (CLB)",
+        "data_de_início": "2024-08-05",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,93693402",
+        "longitude": "2,41997931",
+        "ponto_geográfico": {
+            "lon": 2.41997931,
+            "lat": 48.93693402
+        }
+    },
+    {
+        "codigo_do_local": "LC4",
+        "nome_do_local": "La Concorde 4",
+        "categoria_id": "local-olympic",
+        "esportes": "Skateboard (SKB)",
+        "data_de_início": "2024-08-06",
+        "data_de_término": "2024-08-07",
+        "endereço": "Não disponível",
+        "latitude": "48,86573765",
+        "longitude": "2,3220383",
+        "ponto_geográfico": {
+            "lon": 2.3220383,
+            "lat": 48.86573765
+        }
+    },
+    {
+        "codigo_do_local": "LCO",
+        "nome_do_local": "La Concorde",
+        "categoria_id": "local-olympic",
+        "esportes": "Parc Urbain la Concorde (FCO)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,86570357457259",
+        "longitude": "2,321214226315764",
+        "ponto_geográfico": {
+            "lon": 2.321214226315764,
+            "lat": 48.86570357457259
+        }
+    },
+    {
+        "codigo_do_local": "LCO",
+        "nome_do_local": "La Concorde",
+        "categoria_id": "local-paralympic",
+        "esportes": "CÃ©rÃ©monie d'ouverture Paralympique (POC)",
+        "data_de_início": "2024-09-08",
+        "data_de_término": "2024-09-08",
+        "endereço": "Não disponível",
+        "latitude": "48,86570357457259",
+        "longitude": "2,321214226315764",
+        "ponto_geográfico": {
+            "lon": 2.321214226315764,
+            "lat": 48.86570357457259
+        }
+    },
+    {
+        "codigo_do_local": "LGN",
+        "nome_do_local": "Golf National",
+        "categoria_id": "local-olympic",
+        "esportes": "Golf (GLF)",
+        "data_de_início": "2024-09-01",
+        "data_de_término": "2024-09-10",
+        "endereço": "Não disponível",
+        "latitude": "48.7532",
+        "longitude": "2.0758",
+        "ponto_geográfico": {
+            "lon": 2.0758,
+            "lat": 48.7532
+        }
+    },
+    {
+        "codigo_do_local": "LIL",
+        "nome_do_local": "Stade Pierre Mauroy",
+        "categoria_id": "local-olympic",
+        "esportes": "Basketball (BKB), Handball (HBL)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "50,61190661",
+        "longitude": "3,13047318",
+        "ponto_geográfico": {
+            "lon": 3.13047318,
+            "lat": 50.61190661
+        }
+    },
+    {
+        "codigo_do_local": "NIC",
+        "nome_do_local": "Stade de Nice",
+        "categoria_id": "local-olympic",
+        "esportes": "Football (FBL)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-07-31",
+        "endereço": "Não disponível",
+        "latitude": "43,7051",
+        "longitude": "7,1926",
+        "ponto_geográfico": {
+            "lon": 7.1926,
+            "lat": 43.7051
+        }
+    },
+    {
+        "codigo_do_local": "SP4",
+        "nome_do_local": "Arena Paris Sud 4",
+        "categoria_id": "local-olympic",
+        "esportes": "Tennis de table (TTE)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,830184",
+        "longitude": "2,289033",
+        "ponto_geográfico": {
+            "lon": 2.289033,
+            "lat": 48.830184
+        }
+    },
+    {
+        "codigo_do_local": "SP4",
+        "nome_do_local": "Arena Paris Sud 4",
+        "categoria_id": "local-paralympic",
+        "esportes": "Tennis de table para (PTTE)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,830184",
+        "longitude": "2,289033",
+        "ponto_geográfico": {
+            "lon": 2.289033,
+            "lat": 48.830184
+        }
+    },
+    {
+        "codigo_do_local": "SP6",
+        "nome_do_local": "Arena Paris Sud 6",
+        "categoria_id": "local-olympic",
+        "esportes": "Handball (HBL), HaltÃ©rophilie (WLF)",
+        "data_de_início": "2024-07-25",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,829381",
+        "longitude": "2,290865",
+        "ponto_geográfico": {
+            "lon": 2.290865,
+            "lat": 48.829381
+        }
+    },
+    {
+        "codigo_do_local": "STA",
+        "nome_do_local": "Stade de France",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para AthlÃ©tisme (PATH), CÃ©rÃ©monie de clÃ´ture Paralympique (PCC)",
+        "data_de_início": "2024-08-30",
+        "data_de_término": "2024-09-08",
+        "endereço": "Não disponível",
+        "latitude": "48,924475",
+        "longitude": "2,360127",
+        "ponto_geográfico": {
+            "lon": 2.360127,
+            "lat": 48.924475
+        }
+    },
+    {
+        "codigo_do_local": "STE",
+        "nome_do_local": "Stade Geoffroy-Guichard",
+        "categoria_id": "local-olympic",
+        "esportes": "Football (FBL)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-07-31",
+        "endereço": "Não disponível",
+        "latitude": "45,4607",
+        "longitude": "4,3902",
+        "ponto_geográfico": {
+            "lon": 4.3902,
+            "lat": 45.4607
+        }
+    },
+    {
+        "codigo_do_local": "VN1",
+        "nome_do_local": "Stade nautique de Vaires-sur-Marne - bassin d'eaux calmes",
+        "categoria_id": "local-olympic",
+        "esportes": "Aviron (ROW), CanoÃ« - course en ligne (CSP)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,8623",
+        "longitude": "2,6348",
+        "ponto_geográfico": {
+            "lon": 2.6348,
+            "lat": 48.8623
+        }
+    },
+    {
+        "codigo_do_local": "YDM",
+        "nome_do_local": "Stade Yves-du-Manoir",
+        "categoria_id": "local-olympic",
+        "esportes": "Hockey (HOC)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-09",
+        "endereço": "Não disponível",
+        "latitude": "48,92934371",
+        "longitude": "2,24777122",
+        "ponto_geográfico": {
+            "lon": 2.24777122,
+            "lat": 48.92934371
+        }
+    },
+    {
+        "codigo_do_local": "ALX",
+        "nome_do_local": "Pont Alexandre III",
+        "categoria_id": "local-olympic",
+        "esportes": "Cyclisme sur route - arrivÃ©e Contre-la-montre (CRD), Natation marathon (OWS), Triathlon (TRI)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-09",
+        "endereço": "Não disponível",
+        "latitude": "48,8637",
+        "longitude": "2,3134",
+        "ponto_geográfico": {
+            "lon": 2.3134,
+            "lat": 48.8637
+        }
+    },
+    {
+        "codigo_do_local": "BCY",
+        "nome_do_local": "Arena Bercy",
+        "categoria_id": "local-olympic",
+        "esportes": "Basketball (BKB), Gymnastique artistique (GAR), Gymnastique trampoline (GTR)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,83863",
+        "longitude": "2,378597",
+        "ponto_geográfico": {
+            "lon": 2.378597,
+            "lat": 48.83863
+        }
+    },
+    {
+        "codigo_do_local": "CDM",
+        "nome_do_local": "Arena Champ de Mars",
+        "categoria_id": "local-olympic",
+        "esportes": "Judo (JUD), Lutte (WRE)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,8531",
+        "longitude": "2,30252",
+        "ponto_geográfico": {
+            "lon": 2.30252,
+            "lat": 48.8531
+        }
+    },
+    {
+        "codigo_do_local": "CPL",
+        "nome_do_local": "Arena Porte de la Chapelle",
+        "categoria_id": "local-olympic",
+        "esportes": "Badminton (BDM), Gymnastique rythmique (GRY)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,8997292",
+        "longitude": "2,3605141",
+        "ponto_geográfico": {
+            "lon": 2.3605141,
+            "lat": 48.8997292
+        }
+    },
+    {
+        "codigo_do_local": "CPL",
+        "nome_do_local": "Arena Porte de la Chapelle",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para badminton (PBDM), Para HaltÃ©rophilie (PPWL)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-08",
+        "endereço": "Não disponível",
+        "latitude": "48,8997292",
+        "longitude": "2,3605141",
+        "ponto_geográfico": {
+            "lon": 2.3605141,
+            "lat": 48.8997292
+        }
+    },
+    {
+        "codigo_do_local": "CSB",
+        "nome_do_local": "Clichy-sous-Bois",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para cyclisme sur route (PCRD)",
+        "data_de_início": "2024-09-04",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,906345",
+        "longitude": "2,553544",
+        "ponto_geográfico": {
+            "lon": 2.553544,
+            "lat": 48.906345
+        }
+    },
+    {
+        "codigo_do_local": "CTX",
+        "nome_do_local": "Centre national de tir de ChÃ¢teauroux",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Tir Sportif (PSHO)",
+        "data_de_início": "2024-08-30",
+        "data_de_término": "2024-09-05",
+        "endereço": "Não disponível",
+        "latitude": "46,8157",
+        "longitude": "1,7582",
+        "ponto_geográfico": {
+            "lon": 1.7582,
+            "lat": 46.8157
+        }
+    },
+    {
+        "codigo_do_local": "DEF",
+        "nome_do_local": "Paris La DÃ©fense Arena",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Natation (PSWM)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,8954",
+        "longitude": "2,2294",
+        "ponto_geográfico": {
+            "lon": 2.2294,
+            "lat": 48.8954
+        }
+    },
+    {
+        "codigo_do_local": "EIF",
+        "nome_do_local": "Stade Tour Eiffel",
+        "categoria_id": "local-paralympic",
+        "esportes": "CÃ©cifoot (PFBB)",
+        "data_de_início": "2024-09-01",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,85613",
+        "longitude": "2,2978",
+        "ponto_geográfico": {
+            "lon": 2.2978,
+            "lat": 48.85613
+        }
+    },
+    {
+        "codigo_do_local": "GRP",
+        "nome_do_local": "Grand Palais",
+        "categoria_id": "local-olympic",
+        "esportes": "Escrime (FEN), Taekwondo (TKW)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,86616355",
+        "longitude": "2,3125474",
+        "ponto_geográfico": {
+            "lon": 2.3125474,
+            "lat": 48.86616355
+        }
+    },
+    {
+        "codigo_do_local": "HDV",
+        "nome_do_local": "HÃ´tel de Ville",
+        "categoria_id": "local-olympic",
+        "esportes": "AthlÃ©tisme - dÃ©part Marathon (ATM)",
+        "data_de_início": "2024-08-10",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,8563881",
+        "longitude": "2,35222203",
+        "ponto_geográfico": {
+            "lon": 2.35222203,
+            "lat": 48.8563881
+        }
+    },
+    {
+        "codigo_do_local": "MAM",
+        "nome_do_local": "Marina de Marseille",
+        "categoria_id": "local-olympic",
+        "esportes": "Voile (SAL)",
+        "data_de_início": "2024-07-28",
+        "data_de_término": "2024-08-08",
+        "endereço": "Não disponível",
+        "latitude": "43,2661",
+        "longitude": "5,3678",
+        "ponto_geográfico": {
+            "lon": 5.3678,
+            "lat": 43.2661
+        }
+    },
+    {
+        "codigo_do_local": "NAN",
+        "nome_do_local": "Stade de la Beaujoire",
+        "categoria_id": "local-olympic",
+        "esportes": "Football (FBL)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-08-08",
+        "endereço": "Não disponível",
+        "latitude": "47,25593494",
+        "longitude": "-1,52469927",
+        "ponto_geográfico": {
+            "lon": -1.52469927,
+            "lat": 47.25593494
+        }
+    },
+    {
+        "codigo_do_local": "NPA",
+        "nome_do_local": "Arena Paris Nord",
+        "categoria_id": "local-olympic",
+        "esportes": "Boxe (BOX), Pentathlon moderne (MDN)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-08",
+        "endereço": "Não disponível",
+        "latitude": "48,9721",
+        "longitude": "2,5149",
+        "ponto_geográfico": {
+            "lon": 2.5149,
+            "lat": 48.9721
+        }
+    },
+    {
+        "codigo_do_local": "NPA",
+        "nome_do_local": "Arena Paris Nord",
+        "categoria_id": "local-paralympic",
+        "esportes": "Volleyball assis (PVBS)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,9721",
+        "longitude": "2,5149",
+        "ponto_geográfico": {
+            "lon": 2.5149,
+            "lat": 48.9721
+        }
+    },
+    {
+        "codigo_do_local": "PDP",
+        "nome_do_local": "Parc des Princes",
+        "categoria_id": "local-olympic",
+        "esportes": "Football (FBL)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,84156974",
+        "longitude": "2,253048697",
+        "ponto_geográfico": {
+            "lon": 2.253048697,
+            "lat": 48.84156974
+        }
+    },
+    {
+        "codigo_do_local": "RGA",
+        "nome_do_local": "Stade Roland Garros",
+        "categoria_id": "local-paralympic",
+        "esportes": "Tennis fauteuil (PWTE)",
+        "data_de_início": "2024-08-30",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,845968",
+        "longitude": "2,253522",
+        "ponto_geográfico": {
+            "lon": 2.253522,
+            "lat": 48.845968
+        }
+    },
+    {
+        "codigo_do_local": "RGA",
+        "nome_do_local": "Stade Roland Garros",
+        "categoria_id": "local-olympic",
+        "esportes": "Tennis (TEN), Boxe (BOX)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,845968",
+        "longitude": "2,253522",
+        "ponto_geográfico": {
+            "lon": 2.253522,
+            "lat": 48.845968
+        }
+    },
+    {
+        "codigo_do_local": "SP1",
+        "nome_do_local": "Arena Paris Sud 1",
+        "categoria_id": "local-olympic",
+        "esportes": "Volley-ball (VVO)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,832968",
+        "longitude": "2,2840069",
+        "ponto_geográfico": {
+            "lon": 2.2840069,
+            "lat": 48.832968
+        }
+    },
+    {
+        "codigo_do_local": "SP1",
+        "nome_do_local": "Arena Paris Sud 1",
+        "categoria_id": "local-paralympic",
+        "esportes": "Boccia (PBOC)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-05",
+        "endereço": "Não disponível",
+        "latitude": "48,832968",
+        "longitude": "2,2840069",
+        "ponto_geográfico": {
+            "lon": 2.2840069,
+            "lat": 48.832968
+        }
+    },
+    {
+        "codigo_do_local": "TAH",
+        "nome_do_local": "Tahiti Teahupo'o",
+        "categoria_id": "local-olympic",
+        "esportes": "Surf (SRF)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-07-30",
+        "endereço": "Não disponível",
+        "latitude": "-17,86693",
+        "longitude": "-149,25208",
+        "ponto_geográfico": {
+            "lon": -149.25208,
+            "lat": -17.86693
+        }
+    },
+    {
+        "codigo_do_local": "VE1",
+        "nome_do_local": "VÃ©lodrome National de Saint-Quentin-en-Yvelines",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Cyclisme sur piste (PCTR)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-01",
+        "endereço": "Não disponível",
+        "latitude": "48,78800979",
+        "longitude": "2.03498269",
+        "ponto_geográfico": {
+            "lon": 2.03498269,
+            "lat": 48.78800979
+        }
+    },
+    {
+        "codigo_do_local": "VER",
+        "nome_do_local": "ChÃ¢teau de Versailles",
+        "categoria_id": "local-olympic",
+        "esportes": "Sports Ã©questres - dressage (EQD), Sports Ã©questres - concours complet (EQE), Sports Ã©questres - saut d'obstacles (EQJ), Pentathlon moderne (MPN)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48.81432266",
+        "longitude": "2.08452588",
+        "ponto_geográfico": {
+            "lon": 2.08452588,
+            "lat": 48.81432266
+        }
+    },
+    {
+        "codigo_do_local": "VER",
+        "nome_do_local": "ChÃ¢teau de Versailles",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Equitation (PEQU)",
+        "data_de_início": "2024-09-03",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48.81432266",
+        "longitude": "2.08452588",
+        "ponto_geográfico": {
+            "lon": 2.08452588,
+            "lat": 48.81432266
+        }
+    },
+    {
+        "codigo_do_local": "VN1",
+        "nome_do_local": "Stade nautique de Vaires-sur-Marne - bassin d'eaux calmes",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Aviron (PROW), Para CanoÃ« (PCSP)",
+        "data_de_início": "2024-08-30",
+        "data_de_término": "2024-09-08",
+        "endereço": "Não disponível",
+        "latitude": "48,8623",
+        "longitude": "2,6348",
+        "ponto_geográfico": {
+            "lon": 2.6348,
+            "lat": 48.8623
+        }
+    },
+    {
+        "codigo_do_local": "VN2",
+        "nome_do_local": "Stade nautique de Vaires-sur-Marne - stade d'eaux vives",
+        "categoria_id": "local-olympic",
+        "esportes": "CanoÃ«-kayak slalom (CSL)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-05",
+        "endereço": "Não disponível",
+        "latitude": "48,86223209583829",
+        "longitude": "2,6395463613678416",
+        "ponto_geográfico": {
+            "lon": 2.6395463613678416,
+            "lat": 48.86223209583829
+        }
+    },
+    {
+        "codigo_do_local": "AQC",
+        "nome_do_local": "Centre Aquatique",
+        "categoria_id": "local-olympic",
+        "esportes": "Natation artistique (SWA), Plongeon (DIV), Water-polo (WPO)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,923723",
+        "longitude": "2,35578",
+        "ponto_geográfico": {
+            "lon": 2.35578,
+            "lat": 48.923723
+        }
+    },
+    {
+        "codigo_do_local": "CDM",
+        "nome_do_local": "Arena Champ de Mars",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Judo (PJUD), Rugby fauteuil (PWRU)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-07",
+        "endereço": "Não disponível",
+        "latitude": "48,8531",
+        "longitude": "2,30252",
+        "ponto_geográfico": {
+            "lon": 2.30252,
+            "lat": 48.8531
+        }
+    },
+    {
+        "codigo_do_local": "CTX",
+        "nome_do_local": "Centre national de tir de ChÃ¢teauroux",
+        "categoria_id": "local-olympic",
+        "esportes": "Tir (SHO)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-05",
+        "endereço": "Não disponível",
+        "latitude": "46,8157",
+        "longitude": "1,7582",
+        "ponto_geográfico": {
+            "lon": 1.7582,
+            "lat": 46.8157
+        }
+    },
+    {
+        "codigo_do_local": "DEF",
+        "nome_do_local": "Paris La DÃ©fense Arena",
+        "categoria_id": "local-olympic",
+        "esportes": "Natation (SWM), Water-polo (WPO)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,8954",
+        "longitude": "2,2294",
+        "ponto_geográfico": {
+            "lon": 2.2294,
+            "lat": 48.8954
+        }
+    },
+    {
+        "codigo_do_local": "ELA",
+        "nome_do_local": "Colline dâ€™Elancourt",
+        "categoria_id": "local-olympic",
+        "esportes": "Cyclisme VTT (MTB)",
+        "data_de_início": "2024-07-28",
+        "data_de_término": "2024-07-29",
+        "endereço": "Não disponível",
+        "latitude": "48,78981063",
+        "longitude": "1,9642379",
+        "ponto_geográfico": {
+            "lon": 1.9642379,
+            "lat": 48.78981063
+        }
+    },
+    {
+        "codigo_do_local": "INV",
+        "nome_do_local": "Invalides",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para Tir Ã  l'arc (PARC), Para AthlÃ©tisme - arrivÃ©e Marathon (PATM)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-08",
+        "endereço": "Não disponível",
+        "latitude": "48,85704803",
+        "longitude": "2,312835932",
+        "ponto_geográfico": {
+            "lon": 2.312835932,
+            "lat": 48.85704803
+        }
+    },
+    {
+        "codigo_do_local": "LC1",
+        "nome_do_local": "La Concorde 1",
+        "categoria_id": "local-olympic",
+        "esportes": "Basketball 3x3 (BK3), Breaking (BKG)",
+        "data_de_início": "2024-07-30",
+        "data_de_término": "2024-08-10",
+        "endereço": "Não disponível",
+        "latitude": "48,86640642",
+        "longitude": "2,32119515",
+        "ponto_geográfico": {
+            "lon": 2.32119515,
+            "lat": 48.86640642
+        }
+    },
+    {
+        "codigo_do_local": "LC2",
+        "nome_do_local": "La Concorde 2",
+        "categoria_id": "local-olympic",
+        "esportes": "BMX freestyle (BMF)",
+        "data_de_início": "2024-07-30",
+        "data_de_término": "2024-07-31",
+        "endereço": "Não disponível",
+        "latitude": "48,86504456",
+        "longitude": "2,32119516",
+        "ponto_geográfico": {
+            "lon": 2.32119516,
+            "lat": 48.86504456
+        }
+    },
+    {
+        "codigo_do_local": "LC3",
+        "nome_do_local": "La Concorde 3",
+        "categoria_id": "local-olympic",
+        "esportes": "Skateboard (SKB)",
+        "data_de_início": "2024-07-27",
+        "data_de_término": "2024-07-28",
+        "endereço": "Não disponível",
+        "latitude": "48,86486788",
+        "longitude": "2,32139191",
+        "ponto_geográfico": {
+            "lon": 2.32139191,
+            "lat": 48.86486788
+        }
+    },
+    {
+        "codigo_do_local": "LCS",
+        "nome_do_local": "La Courneuve",
+        "categoria_id": "local-paralympic",
+        "esportes": "Para AthlÃ©tisme - dÃ©part Marathon (PATM)",
+        "data_de_início": "2024-09-08",
+        "data_de_término": "2024-09-08",
+        "endereço": "Não disponível",
+        "latitude": "48.9372382",
+        "longitude": "2.3994101",
+        "ponto_geográfico": {
+            "lon": 2.3994101,
+            "lat": 48.9372382
+        }
+    },
+    {
+        "codigo_do_local": "LYO",
+        "nome_do_local": "Stade de Lyon",
+        "categoria_id": "local-olympic",
+        "esportes": "Football (FBL)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-08-09",
+        "endereço": "Não disponível",
+        "latitude": "45,76514165",
+        "longitude": "4,98199275",
+        "ponto_geográfico": {
+            "lon": 4.98199275,
+            "lat": 45.76514165
+        }
+    },
+    {
+        "codigo_do_local": "MRS",
+        "nome_do_local": "Stade de Marseille",
+        "categoria_id": "local-olympic",
+        "esportes": "Football (FBL)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-08-06",
+        "endereço": "Não disponível",
+        "latitude": "43,2698",
+        "longitude": "5.3959",
+        "ponto_geográfico": {
+            "lon": 5.3959,
+            "lat": 43.2698
+        }
+    },
+    {
+        "codigo_do_local": "SP6",
+        "nome_do_local": "Arena Paris Sud 6",
+        "categoria_id": "local-paralympic",
+        "esportes": "Goalball (PGBL)",
+        "data_de_início": "2024-08-29",
+        "data_de_término": "2024-09-05",
+        "endereço": "Não disponível",
+        "latitude": "48,829381",
+        "longitude": "2,290865",
+        "ponto_geográfico": {
+            "lon": 2.290865,
+            "lat": 48.829381
+        }
+    },
+    {
+        "codigo_do_local": "STA",
+        "nome_do_local": "Stade de France",
+        "categoria_id": "local-olympic",
+        "esportes": "AthlÃ©tisme (ATH), Rugby Ã  7 (RU7), CÃ©rÃ©monie de clÃ´ture (OCC)",
+        "data_de_início": "2024-07-24",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,924475",
+        "longitude": "2,360127",
+        "ponto_geográfico": {
+            "lon": 2.360127,
+            "lat": 48.924475
+        }
+    },
+    {
+        "codigo_do_local": "TRO",
+        "nome_do_local": "TrocadÃ©ro",
+        "categoria_id": "local-olympic",
+        "esportes": "AthlÃ©tisme marche (ATW), Cyclisme sur route - Course sur route (CRD)",
+        "data_de_início": "2024-08-01",
+        "data_de_término": "2024-08-07",
+        "endereço": "Não disponível",
+        "latitude": "48,85972558",
+        "longitude": "2,29221884",
+        "ponto_geográfico": {
+            "lon": 2.29221884,
+            "lat": 48.85972558
+        }
+    },
+    {
+        "codigo_do_local": "VE1",
+        "nome_do_local": "VÃ©lodrome National de Saint-Quentin-en-Yvelines",
+        "categoria_id": "local-olympic",
+        "esportes": "Cyclisme sur piste (CTR)",
+        "data_de_início": "2024-08-05",
+        "data_de_término": "2024-08-11",
+        "endereço": "Não disponível",
+        "latitude": "48,78800979",
+        "longitude": "2.03498269",
+        "ponto_geográfico": {
+            "lon": 2.03498269,
+            "lat": 48.78800979
+        }
+    },
+    {
+        "codigo_do_local": "VE2",
+        "nome_do_local": "Stade BMX de Saint-Quentin-en-Yvelines",
+        "categoria_id": "local-olympic",
+        "esportes": "BMX Racing (BMX)",
+        "data_de_início": "2024-09-01",
+        "data_de_término": "2024-09-02",
+        "endereço": "Não disponível",
+        "latitude": "48,78800979",
+        "longitude": "2.03498269",
+        "ponto_geográfico": {
+            "lon": 2.03498269,
+            "lat": 48.78800979
+        }
+    }
+]
