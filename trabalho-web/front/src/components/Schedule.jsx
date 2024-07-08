@@ -1,10 +1,18 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
+import { AuthContext } from '../api/AuthProvider';
 
-const Schedule = ({ selectedSports }) => {
+const Schedule = ({
+  selectedSports,
+  handleGenerateSchedule,
+  handleUndoSchedule,
+  loadedSports,
+  setLoadedSports,
+}) => {
+  const { user } = useContext(AuthContext);
   const [scheduleData, setScheduleData] = useState([]);
-  const [events, setEvents] = useState([]);
 
+  // Carregar dados inicialmente
   useEffect(() => {
     axios
       .get('/agendaOlimp_updated.json')
@@ -18,53 +26,41 @@ const Schedule = ({ selectedSports }) => {
       });
   }, []);
 
-  const generateSchedule = () => {
-    const selected = selectedSports
-      .map((sport) => {
-        const event = scheduleData.find((item) =>
-          item.esportes.includes(sport)
-        );
-        if (event) {
-          const inicio = new Date(
-            event['data_de_início'] + 'T00:00:00'
-          ).toLocaleDateString('pt-BR');
-          const termino = new Date(
-            event['data_de_término'] + 'T00:00:00'
-          ).toLocaleDateString('pt-BR');
-          return { sport, inicio, termino };
-        }
-        return null;
-      })
-      .filter((item) => item !== null);
-
-    setEvents(selected);
-  };
-
   return (
-    <div>
-      <button
-        id="generateSchedule"
-        className="mt-7 focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-        onClick={generateSchedule}
-      >
-        Gerar Agendamento
-      </button>
-
-      <div id="agendamento" className={events.length > 0 ? '' : 'hidden'}>
-        <div id="agendamento-title" className="text-2xl font-bold my-4">
+    <div className="mb-10">
+      <div className="flex justify-center flex-col items-center">
+        <button
+          id="generateSchedule"
+          className="bg-green-500 text-white py-2 px-4 rounded mt-4"
+          onClick={handleGenerateSchedule}
+        >
+          Gerar Agendamento
+        </button>
+        <button
+          id="undoSchedule"
+          className="bg-red-500 text-white py-2 px-4 rounded mt-4"
+          onClick={handleUndoSchedule}
+        >
+          Desfazer Agendamento
+        </button>
+      </div>
+      {loadedSports.length > 0 && (
+        <div id="agendamento" className="text-2xl font-bold my-4">
           Esportes Selecionados
-        </div>
-        <div id="selectedSports">
-          {events.map((event, index) => (
+          {loadedSports.map((event, index) => (
             <div
               key={index}
               className="agendamento-item my-2 bg-green-100 p-2 rounded"
             >
-              {`${event.sport} - Início: ${event.inicio}, Término: ${event.termino}`}
+              {`${event.sport} - Início: ${new Date(
+                event.inicio
+              ).toLocaleDateString('pt-BR')}, Término: ${new Date(
+                event.termino
+              ).toLocaleDateString('pt-BR')}`}
             </div>
           ))}
         </div>
-      </div>
+      )}
     </div>
   );
 };

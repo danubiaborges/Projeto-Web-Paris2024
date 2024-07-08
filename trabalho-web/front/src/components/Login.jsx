@@ -1,16 +1,17 @@
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { Link, Navigate } from 'react-router-dom';
-import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useState, useContext } from 'react';
 import axios from 'axios';
+import { AuthContext } from '../api/AuthProvider';
 
-// Definindo o esquema de validação com Yup
+// validação com Yup
 const schema = yup.object().shape({
   email: yup.string().email('Email inválido').required('Email é obrigatório'),
   password: yup
     .string()
-    .min(6, 'A senha deve ter pelo menos 6 caracteres')
+    .min(4, 'A senha deve ter pelo menos 4 caracteres')
     .required('Senha é obrigatória'),
 });
 
@@ -19,10 +20,13 @@ const Login = () => {
     register,
     handleSubmit,
     formState: { errors },
+    setError,
   } = useForm({
     resolver: yupResolver(schema),
   });
-  const [msg, setMsg] = useState();
+  const [msg, setMsg] = useState('');
+  const navigate = useNavigate();
+  const { setUser } = useContext(AuthContext);
 
   const onSubmit = async (data) => {
     try {
@@ -30,20 +34,29 @@ const Login = () => {
         'http://localhost:3000/auth/login',
         data
       );
-      if (response.status === 200) setMsg('OK');
+      if (response.status === 200) {
+        setUser({ email: data.email });
+        navigate('/modalidades');
+      } else {
+        setMsg('Falha no login. Por favor, tente novamente.');
+      }
     } catch (error) {
-      setMsg(error.response.data);
+      console.error('Error during login:', error);
+
+      const errorMessage =
+        error.response && error.response.data
+          ? error.response.data.message
+          : 'Erro desconhecido ao fazer login';
+      setMsg(errorMessage);
+
+      setError('password', { type: 'manual', message: 'Falha no login' });
     }
   };
-
-  
-
-  if (msg === 'OK') return <Navigate to="/" />;
 
   return (
     <div
       className="relative flex items-center justify-center min-h-screen bg-cover"
-      style={{ backgroundImage: "url('/background.jpg')" }}
+      style={{ backgroundImage: "url('/images/rayssa.png')" }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 w-full max-w-md p-8 space-y-4 bg-white bg-opacity-20 rounded shadow-md">
@@ -99,6 +112,7 @@ const Login = () => {
             Criar uma conta
           </Link>
         </div>
+        {msg && <p className="mt-2 text-center text-sm text-red-500">{msg}</p>}
       </div>
     </div>
   );

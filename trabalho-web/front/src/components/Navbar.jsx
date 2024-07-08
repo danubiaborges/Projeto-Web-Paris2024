@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ userEmail }) => {
   const calculateTimeLeft = () => {
     const targetDate = new Date('2024-07-26T00:00:00'); 
     const now = new Date();
@@ -46,34 +47,33 @@ const Navbar = () => {
           <span id="seconds">{timeLeft.seconds || '0'}</span> Segundos
         </div>
       </div>
-      <div className="navbar-center">
-        <ul className="flex space-x-4">
-          <li>
-            <a
-              href="https://olympics.com/pt/paris-2024"
-              target="_blank"
-              title="link para Paris 2024"
-            >
-              PARIS 2024
-            </a>
-          </li>
-          <li className="logo-container">
-            <img
-              src="/images/Olympics-Rings-Logo.png"
-              alt="Logo"
-              className="logo w-8 h-8"
-            />
-          </li>
-          <li>
-            <a
-              href="https://www.cob.org.br/pt/"
-              target="_blank"
-              title="link para COB"
-            >
-              COB
-            </a>
-          </li>
-        </ul>
+      <div className="flex justify-center items-center space-x-4"
+      style={{ marginRight: '170px' }} 
+>
+        <a
+          href="https://olympics.com/pt/paris-2024"
+          target="_blank"
+          title="link para Paris 2024"
+          className="text-white"
+        >
+          PARIS 2024
+        </a>
+        <img
+          src="/images/Olympics-Rings-Logo.png"
+          alt="Logo"
+          className="logo w-8 h-8 mx-4" 
+        />
+        <a
+          href="https://www.cob.org.br/pt/"
+          target="_blank"
+          title="link para COB"
+          className="text-white"
+        >
+          COB
+        </a>
+      </div>
+      <div className="text-white">
+        {userEmail ? `Online: ${userEmail}` : 'Offline'}
       </div>
     </nav>
   );

@@ -1,14 +1,151 @@
 [
   {
     "email": "vkendis@gmail.com",
-    "password": "123456"
+    "password": "wwwwww",
+    "sports": []
   },
   {
-    "email": "danbborges@gmail.com",
-    "password": "123456"
+    "email": "dan@gmail.com",
+    "password": "wwwwww",
+    "sports": []
   },
   {
-    "email": "laviny@gmail.com",
-    "password": "123456"
+    "email": "teste@gmail.com",
+    "password": "wwwwww",
+    "sports": [
+      {
+        "sport": "Polo Aquático",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-11",
+        "local": "Paris La Défense Arena"
+      },
+      {
+        "sport": "Ciclismo de Estrada",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-11",
+        "local": "Invalides"
+      },
+      {
+        "sport": "Ciclismo de Pista",
+        "inicio": "2024-08-05",
+        "termino": "2024-08-11",
+        "local": "Vélodrome National de Saint-Quentin-en-Yvelines"
+      }
+    ]
+  },
+  {
+    "email": "will@gmail.com",
+    "password": "wwwwww",
+    "sports": []
+  },
+  {
+    "email": "william@gmail.com",
+    "password": "wwwwww",
+    "sports": [
+      {
+        "sport": "Polo Aquático",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-11",
+        "local": "Paris La Défense Arena"
+      },
+      {
+        "sport": "Ciclismo de Estrada - Contra Relógio Individual",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-11",
+        "local": "Invalides"
+      },
+      {
+        "sport": "Natação Paralímpica",
+        "inicio": "2024-08-29",
+        "termino": "2024-09-07",
+        "local": "Paris La Défense Arena"
+      },
+      {
+        "sport": "Levantamento de Peso",
+        "inicio": "2024-07-25",
+        "termino": "2024-08-11",
+        "local": "Arena Paris Sud 6"
+      },
+      {
+        "sport": "Luta",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-11",
+        "local": "Arena Champ de Mars"
+      }
+    ]
+  },
+  {
+    "email": "panda@gmail.com",
+    "password": "wwwwww",
+    "sports": []
+  },
+  {
+    "email": "tr@gmail.com",
+    "password": "wwwwww",
+    "sports": []
+  },
+  {
+    "email": "teste2@gmail.com",
+    "password": "222222",
+    "sports": []
+  },
+  {
+    "email": "t5@gmail.com",
+    "password": "wwwwww",
+    "sports": [
+      {
+        "sport": "Polo Aquático",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-11",
+        "local": "Paris La Défense Arena"
+      },
+      {
+        "sport": "Ciclismo de Estrada - Contra Relógio Individual",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-11",
+        "local": "Invalides"
+      },
+      {
+        "sport": "Mountain Bike",
+        "inicio": "2024-07-28",
+        "termino": "2024-07-29",
+        "local": "Colline d’Elancourt"
+      },
+      {
+        "sport": "Tiro com Arco Paralímpico",
+        "inicio": "2024-08-29",
+        "termino": "2024-09-08",
+        "local": "Invalides"
+      },
+      {
+        "sport": "Canoagem de Velocidade",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-10",
+        "local": "Stade nautique de Vaires-sur-Marne - bassin d'eau calme"
+      },
+      {
+        "sport": "BMX Freestyle",
+        "inicio": "2024-07-30",
+        "termino": "2024-07-31",
+        "local": "La Concorde 2"
+      }
+    ]
+  },
+  {
+    "email": "mineiro.reno@gmail.com",
+    "password": "123456",
+    "sports": [
+      {
+        "sport": "Equitação Paralímpica",
+        "inicio": "2024-09-03",
+        "termino": "2024-09-07",
+        "local": "Château de Versailles"
+      }
+    ]
+  },
+  {
+    "email": "mineiro.reno@gmail.co",
+    "password": "123456",
+    "sports": []
   }
 ]

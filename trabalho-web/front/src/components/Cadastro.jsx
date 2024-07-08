@@ -1,16 +1,16 @@
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { Link, Navigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios';
 
-// Definindo o esquema de validação com Yup
+// validação com Yup
 const schema = yup.object().shape({
   email: yup.string().email('Email inválido').required('Email é obrigatório'),
   password: yup
     .string()
-    .min(6, 'A senha deve ter pelo menos 6 caracteres')
+    .min(4, 'A senha deve ter pelo menos 4 caracteres')
     .required('Senha é obrigatória'),
   confirmPassword: yup
     .string()
@@ -27,23 +27,22 @@ const Cadastro = () => {
     resolver: yupResolver(schema),
   });
   const [msg, setMsg] = useState();
+  const navigate = useNavigate();
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post(
-        'http://localhost:3000/auth/register', // Mudar de /auth/login para /auth/register
-        data
-      );
+      const response = await axios.post('http://localhost:3000/auth/register', {
+        email: data.email,
+        password: data.password,
+        sports: [], // Adicionando sports vazio ao registrar
+      });
       if (response.status === 201) {
-        setMsg('OK'); // Cadastro foi bem sucedido
+        navigate('/login'); // Navega para a página de login após o registro bem-sucedido
       }
     } catch (error) {
       setMsg(error.response.data.message); // Mostra mensagem de erro do servidor
     }
   };
-  
-
-  if (msg === 'OK') return <Navigate to="/" />;
 
   return (
     <div
@@ -126,6 +125,7 @@ const Cadastro = () => {
             Já tem uma conta? Faça login
           </Link>
         </div>
+        {msg && <p className="mt-2 text-center text-sm text-red-500">{msg}</p>}
       </div>
     </div>
   );
