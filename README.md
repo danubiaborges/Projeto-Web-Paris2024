@@ -106,7 +106,7 @@
     <li><a href="https://github.com/danubiaborges", target="_blank">Danúbia Borges</a></li>
     <li><a href="https://github.com/lavinyrodr", target="_blank">Laviny Laurindo</a></li>
     <li><a href="https://github.com/vkendis", target="_blank">Vinícius Kendi</a></li>
-    <li><a href="https://github.com/viniciusnreno", target="_blank">Vinícius Renó</a></li>
+    <li><a href="https://github.com/", target="_blank">Vinícius</a></li>
 </ul>
 
 <h3>👨‍🏫 Orientador</h3>
