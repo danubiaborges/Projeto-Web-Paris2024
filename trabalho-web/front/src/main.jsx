@@ -1,19 +1,22 @@
 import ReactDOM from 'react-dom/client';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
+import { AuthProvider } from './api/AuthProvider'; 
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './App';
+import Login from './components/Login';
+import Cadastro from './components/Cadastro';
 
-import App from './App.jsx';
-
-const routes = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-  },
-  
-]);
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={routes} />
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <AuthProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/modalidades" element={<App />} />
+      </Routes>
+    </BrowserRouter>
+  </AuthProvider>
 );

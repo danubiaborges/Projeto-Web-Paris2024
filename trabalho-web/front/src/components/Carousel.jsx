@@ -20,7 +20,7 @@ const Carousel = ({ children }) => {
   }, [images.length]);
 
   return (
-    <div className="relative h-64 overflow-hidden">
+    <div style={{ height: '600px' }} className="relative overflow-hidden"> {}
       {images.map((image, index) => (
         <div
           key={index}
@@ -30,8 +30,8 @@ const Carousel = ({ children }) => {
           style={{
             backgroundImage: `url(/images/${image})`,
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            opacity: index === currentImageIndex ? 0.25 : 0, // Ensure only the current image has opacity
+            backgroundPosition: 'center 20%', 
+            opacity: index === currentImageIndex ? 0.5 : 0, 
           }}
         />
       ))}
