@@ -93,7 +93,17 @@
 
 <h3>🖥️ Interface</h3>
 
-<p>Em construção...</p>
+### Tela de Cadastro
+![Tela de Cadastro](imagensReadme/cadastro.png)
+Descrição: Interface para cadastro de novos usuários.
+
+### Tela de Login
+![Tela de Login](imagensReadme/login.png)
+Descrição: Interface para login de usuários existentes.
+
+### Tela de Seleção de Modalidades
+![Tela de Seleção de Modalidades](imagensReadme/modalidades.png)
+Descrição: Interface para seleção de modalidades esportivas.
 
 <h3>🚀 Execute o Projeto</h3>
 
@@ -106,7 +116,7 @@
     <li><a href="https://github.com/danubiaborges", target="_blank">Danúbia Borges</a></li>
     <li><a href="https://github.com/lavinyrodr", target="_blank">Laviny Laurindo</a></li>
     <li><a href="https://github.com/vkendis", target="_blank">Vinícius Kendi</a></li>
-    <li><a href="https://github.com/", target="_blank">Vinícius</a></li>
+    <li><a href="https://github.com/viniciusnreno", target="_blank">Vinícius Renó</a></li>
 </ul>
 
 <h3>👨‍🏫 Orientador</h3>
