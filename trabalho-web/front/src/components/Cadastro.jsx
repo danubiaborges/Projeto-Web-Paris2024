@@ -47,7 +47,7 @@ const Cadastro = () => {
   return (
     <div
       className="relative flex items-center justify-center min-h-screen bg-cover"
-      style={{ backgroundImage: "url('../images/oscar.png')" }}
+      style={{ backgroundImage: "url('/images/rayssa.png')" }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 w-full max-w-md p-8 space-y-4 bg-white bg-opacity-20 rounded shadow-md">
