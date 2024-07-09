@@ -2,7 +2,32 @@
   {
     "email": "vkendis@gmail.com",
     "password": "wwwwww",
-    "sports": []
+    "sports": [
+      {
+        "sport": "Tiro Esportivo Paralímpico",
+        "inicio": "2024-08-30",
+        "termino": "2024-09-05",
+        "local": "Centre national de tir de Châteauroux"
+      },
+      {
+        "sport": "Canoagem de Velocidade",
+        "inicio": "2024-07-27",
+        "termino": "2024-08-10",
+        "local": "Stade nautique de Vaires-sur-Marne - bassin d'eau calme"
+      },
+      {
+        "sport": "Judô Paralímpico",
+        "inicio": "2024-08-29",
+        "termino": "2024-09-07",
+        "local": "Arena Champ de Mars"
+      },
+      {
+        "sport": "Basquete 3x3",
+        "inicio": "2024-07-30",
+        "termino": "2024-08-10",
+        "local": "La Concorde 1"
+      }
+    ]
   },
   {
     "email": "dan@gmail.com",
@@ -146,6 +171,11 @@
   {
     "email": "mineiro.reno@gmail.co",
     "password": "123456",
+    "sports": []
+  },
+  {
+    "email": "yudi@gmail.com",
+    "password": "wwwwww",
     "sports": []
   }
 ]
