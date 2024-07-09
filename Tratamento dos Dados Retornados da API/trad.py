@@ -1,8 +1,8 @@
 import json
 
-# Carrega o JSON a partir do arquivo
 with open('agenda_olimpica.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
+    
 traducoes_esportes = {
     "Escrime": "Esgrima",
     "Taekwondo": "Taekwondo",
@@ -88,14 +88,14 @@ traducoes_esportes = {
     "Haltérophilie": "Levantamento de Peso",
     "Canoë-kayak slalom": "Canoagem Slalom"
 }
-# Atualizando os esportes usando o dicionário de traduções
+
 for item in data:
     esportes_traduzidos = []
-    # Processando cada esporte mencionado no item
+
     for esporte in item['esportes'].split(", "):
-        esporte_nome, _, resto = esporte.partition(" (")  # Dividindo no primeiro " ("
-        esporte_codigo = resto if resto else ""  # Manter o código, se presente
-        esporte_traduzido = traducoes_esportes.get(esporte_nome, esporte_nome)  # Usa a tradução, se disponível
+        esporte_nome, _, resto = esporte.partition(" (")  
+        esporte_codigo = resto if resto else ""  
+        esporte_traduzido = traducoes_esportes.get(esporte_nome, esporte_nome)  
         if esporte_codigo:
             esporte_completo = f"{esporte_traduzido} ({esporte_codigo}"
         else:
@@ -103,7 +103,6 @@ for item in data:
         esportes_traduzidos.append(esporte_completo)
     item['esportes'] = ", ".join(esportes_traduzidos)
 
-# Salvando os dados atualizados de volta ao arquivo
 with open('agenda_olimpica_updated.json', 'w', encoding='utf-8') as file:
     json.dump(data, file, ensure_ascii=False, indent=4)
 
